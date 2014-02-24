@@ -1,0 +1,28 @@
+Hi,
+
+So you might be wondering what this directory is for. Well, I got the idea from Linux/Unix (Linux is a modified version of Unix; I believe).
+You place a batch file in this directory starting from the numeric value 0. So for example, you could create the batch file "0.bat" and save it
+in this directory and it will execute during the execution of DT (Data Thief). DT counts from the number "0" so if a numbered file is missing,
+then DT will skip the execution of any other batch files.
+
+Heres an example of a complete init directory layout:
+
+	Contents of "Drive:\Data\Res":
+		0.bat - File
+		1.bat - File
+		2.bat - File
+		3.bat - File
+
+Heres an example of a incomplete init directory layout:
+
+	Contents of "Drive:\Data\Res":
+		0.bat - File
+		2.bat - File
+		3.bat - File
+		
+You may notice that the file "1.bat" is missing. If "1.bat" is missing, then "2.bat" will NOT execute - neither will any of the other scripts
+that follow.
+
+When a file is executed from the "Init" directory, it's CD is left as "Drive:\Data" so if required, may need to use the CD command to change the
+directory to the required directory. Don't worry about changing the directory back to the original, because Data Thief will restore it back to
+the default one.

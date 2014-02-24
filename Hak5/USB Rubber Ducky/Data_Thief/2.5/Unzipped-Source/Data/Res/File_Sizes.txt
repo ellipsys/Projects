@@ -1,0 +1,37 @@
+914432 : "7-Zip\7z.dll" 
+163840 : "7-Zip\7z.exe" 
+162816 : "7-Zip\7z.sfx" 
+152064 : "7-Zip\7zCon.sfx" 
+55808 : "7-Zip\7-zip.dll" 
+136889 : "ChromePass\ChromePass.zip" 
+69446 : "mimikatz_x32\mimikatz_x32.zip" 
+66484 : "mimikatz_x64\mimikatz_x64.zip" 
+222876 : "Procdump\procdump.zip" 
+40809 : "ProduKey\ProduKey.zip" 
+55344 : "ProduKeyx64\ProduKeyx64.zip" 
+5059 : "Wind\Wind.zip" 
+19968 : "Sha1Sum\sha1sum.exe" 
+3479444 : "PowerSploit\PowerSploit-master-Encrypted.zip" 
+1667584 : "NetCat-Nmap\ncat.exe" 
+70080 : "RemoveDrive\x32\RemoveDrive.exe" 
+86296 : "RemoveDrive\x64\RemoveDrive.exe" 
+209986 : "WebBrowserPassView\WebBrowserPassView.zip" 
+Sha1 sums:
+344faf61c3eb76f4a2fb6452e83ed16c9cce73e0  7-Zip\7z.dll
+20fea1314dbed552d5fedee096e2050369172ee1  7-Zip\7z.exe
+00654a3562fded9c003a0116e269e8b8f2fa6b39  7-Zip\7z.sfx
+1b81ab29d0033864340f11ab913e6899d1279095  7-Zip\7zCon.sfx
+297e678c34311191c4602b6f4e920362e8a089a4  7-Zip\7-zip.dll
+aeb9a757dbb401d7e9eb9a2cbb6a99814e1bb34c  ChromePass\ChromePass.zip
+e1cfdcf78e99104f626af9b86435bed29f8e25de  mimikatz_x32\mimikatz_x32.zip
+9a5391db5716a7d619958c3c885ace087294d810  mimikatz_x64\mimikatz_x64.zip
+03ec1c36ca074e82322631bc5947117c47ca73ea  Procdump\procdump.zip
+de5f895d99f3823d445e263618b43b92b3e319fb  ProduKey\ProduKey.zip
+b113f2f31e2885a83a45536e2f9c5893e18e6452  ProduKeyx64\ProduKeyx64.zip
+ef910c9b020ef3f36518819d65ec0d0bdd6becf7  Wind\Wind.zip
+4a578ecd09a2d0c8431bdd8cf3d5c5f3ddcddfc9  Sha1Sum\sha1sum.exe
+e30cbe65f51688060c0d4b264861c4d0845025ba  PowerSploit\PowerSploit-master-Encrypted.zip
+e52433b84341f1bec29dc818b48132c045311a1f  NetCat-Nmap\ncat.exe
+b2e4a3b1d381fe4c8e633801d26fb5d59f6e534d  RemoveDrive\x32\RemoveDrive.exe
+6db101919f2b5b0abcb7b244d4c317f5f3563164  RemoveDrive\x64\RemoveDrive.exe
+ba059dc390b19cd178c15678ac24f3d6bc5ac719  WebBrowserPassView\WebBrowserPassView.zip
