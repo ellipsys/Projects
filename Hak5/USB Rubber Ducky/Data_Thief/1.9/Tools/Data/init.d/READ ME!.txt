@@ -1,0 +1,13 @@
+Ok, so I have experience with Linux as well as Windows - so since I like how Linux works, I've decided to get some ideas
+from it.
+
+This directory is where you can place *.bat files that can be executed after the SP.bat file has finished executing all 
+of its commands.
+
+The batch files must be named as numbers, e.g. 1.bat, 2.bat, 3.bat etc. if you delete one of the batch files, the
+ones that follow on will not be executed.
+E.g.
+1.bat, 2.bat. 3.bat.
+If you remove 2.bat, 3.bat will not execute.
+
+Windows won't let me use "init.d\*.bat" to run multiple files, so file names are important.
